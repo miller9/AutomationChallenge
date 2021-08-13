@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="35" failures="0" name="runner.Testrunner" time="0.491" errors="0" skipped="0">
+<testsuite tests="35" failures="0" name="runner.Testrunner" time="0.515" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
@@ -61,39 +61,39 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Add multiple items to the shopping cart" name="Given user is successfully authenticated" time="0.001"/>
+  <testcase classname="Scenario: Add multiple items to the shopping cart" name="Given user is successfully authenticated" time="0.002"/>
   <testcase classname="Scenario: Add multiple items to the shopping cart" name="When user adds items to the shopping cart" time="0"/>
   <testcase classname="Scenario: Add multiple items to the shopping cart" name="Then user sees the items added in the shopping cart" time="0"/>
-  <testcase classname="Scenario: Add multiple items to the shopping cart" name="Scenario: Add multiple items to the shopping cart" time="0.069"/>
+  <testcase classname="Scenario: Add multiple items to the shopping cart" name="Scenario: Add multiple items to the shopping cart" time="0.075"/>
   <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="Given user is successfully authenticated" time="0"/>
   <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="When user adds the ‘Sauce Labs Onesie’ product to the shopping cart" time="0"/>
-  <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="Then user confirms that the correct product was added to the cart" time="0"/>
-  <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" time="0.069"/>
+  <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="Then user confirms that the correct product was added to the cart" time="0.001"/>
+  <testcase classname="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" name="Scenario: Add the specific product ‘Sauce Labs Onesie’ to the shopping cart" time="0.073"/>
   <testcase classname="Scenario: Login with a valid user" name="Given User is on the saucedemo Homepage" time="0"/>
   <testcase classname="Scenario: Login with a valid user" name="When type username on the username field" time="0"/>
   <testcase classname="Scenario: Login with a valid user" name="And type password on the password field" time="0"/>
   <testcase classname="Scenario: Login with a valid user" name="Then should be redirected to the Products page" time="0"/>
-  <testcase classname="Scenario: Login with a valid user" name="Scenario: Login with a valid user" time="0.07"/>
+  <testcase classname="Scenario: Login with a valid user" name="Scenario: Login with a valid user" time="0.074"/>
   <testcase classname="Scenario: Login with an invalid user" name="Given User is on the saucedemo Homepage" time="0"/>
   <testcase classname="Scenario: Login with an invalid user" name="When type wrong username on the username field" time="0"/>
   <testcase classname="Scenario: Login with an invalid user" name="And type right password on the password field" time="0"/>
   <testcase classname="Scenario: Login with an invalid user" name="Then the error message should be displayed" time="0"/>
-  <testcase classname="Scenario: Login with an invalid user" name="Scenario: Login with an invalid user" time="0.071"/>
+  <testcase classname="Scenario: Login with an invalid user" name="Scenario: Login with an invalid user" time="0.073"/>
   <testcase classname="Scenario: Logout from the saucedemo Homepage" name="Given User is on the saucedemo Homepage" time="0"/>
-  <testcase classname="Scenario: Logout from the saucedemo Homepage" name="When the user is logged in on the Products page" time="0.001"/>
+  <testcase classname="Scenario: Logout from the saucedemo Homepage" name="When the user is logged in on the Products page" time="0"/>
   <testcase classname="Scenario: Logout from the saucedemo Homepage" name="And selects the logout option" time="0"/>
   <testcase classname="Scenario: Logout from the saucedemo Homepage" name="Then should be redirected to the Login page" time="0"/>
-  <testcase classname="Scenario: Logout from the saucedemo Homepage" name="Scenario: Logout from the saucedemo Homepage" time="0.069"/>
+  <testcase classname="Scenario: Logout from the saucedemo Homepage" name="Scenario: Logout from the saucedemo Homepage" time="0.074"/>
   <testcase classname="Scenario: Sort products by price low to high" name="Given user is successfully authenticated" time="0"/>
   <testcase classname="Scenario: Sort products by price low to high" name="When user sort products by low to high price" time="0"/>
   <testcase classname="Scenario: Sort products by price low to high" name="Then user sees the products organized by price from lowest to highest" time="0"/>
-  <testcase classname="Scenario: Sort products by price low to high" name="Scenario: Sort products by price low to high" time="0.071"/>
+  <testcase classname="Scenario: Sort products by price low to high" name="Scenario: Sort products by price low to high" time="0.073"/>
   <testcase classname="Scenario: Complete a purchase" name="Given user is successfully authenticated" time="0"/>
-  <testcase classname="Scenario: Complete a purchase" name="When user adds items to the shopping cart" time="0.001"/>
+  <testcase classname="Scenario: Complete a purchase" name="When user adds items to the shopping cart" time="0"/>
   <testcase classname="Scenario: Complete a purchase" name="And user sees the items added in the shopping cart" time="0"/>
   <testcase classname="Scenario: Complete a purchase" name="And user proceed to checkout" time="0"/>
   <testcase classname="Scenario: Complete a purchase" name="And user fill the personal information" time="0"/>
   <testcase classname="Scenario: Complete a purchase" name="And user review the order" time="0"/>
   <testcase classname="Scenario: Complete a purchase" name="Then user should be redirected to the confirmation page" time="0"/>
-  <testcase classname="Scenario: Complete a purchase" name="Scenario: Complete a purchase" time="0.069"/>
+  <testcase classname="Scenario: Complete a purchase" name="Scenario: Complete a purchase" time="0.07"/>
 </testsuite>
