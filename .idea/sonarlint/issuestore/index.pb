@@ -23,7 +23,3 @@ X
 (src/test/java/seleniumglue/TestBase.java,1/0/106331e0e23e784dac5b16c9965e06d1ed61e742
 m
 =src/test/java/runner/browser_manager/ChromeDriverManager.java,f/e/feafdfff5e8595cd026b81bd5840cf4cade4e32d
-T
-$src/test/java/features/login.feature,6/7/67433fd336342d3e51764aab63c9691a01a4d938
-V
-&resources/cucumber-reports/report.html,5/4/541f53c7ef679d7161ff8c076f92c326e3337242
