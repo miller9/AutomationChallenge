@@ -1,0 +1,22 @@
+{
+  "name": "automationchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miller9/AutomationChallenge.git"
+  },
+  "author": "Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miller9/AutomationChallenge/issues"
+  },
+  "homepage": "https://github.com/miller9/AutomationChallenge#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

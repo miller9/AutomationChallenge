@@ -1,0 +1,647 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 404795284,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is successfully authenticated",
+            "match": {
+              "location": "ProductsSteps.user_is_successfully_authenticated()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1335261796,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add multiple items to the shopping cart",
+        "description": "",
+        "id": "cart-page;add-multiple-items-to-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 69544472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102604965,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user adds items to the shopping cart",
+            "match": {
+              "location": "CartSteps.user_adds_items_to_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94843056,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees the items added in the shopping cart",
+            "match": {
+              "location": "CartSteps.user_sees_the_items_added_in_the_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 288159807,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is successfully authenticated",
+            "match": {
+              "location": "ProductsSteps.user_is_successfully_authenticated()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1228420625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart",
+        "description": "",
+        "id": "cart-page;add-the-specific-product-‘sauce-labs-onesie’-to-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 69411065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32530196,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user adds the ‘Sauce Labs Onesie’ product to the shopping cart",
+            "match": {
+              "location": "CartSteps.user_adds_the_Sauce_Labs_Onesie_product_to_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56206414,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user confirms that the correct product was added to the cart",
+            "match": {
+              "location": "CartSteps.user_confirms_that_the_correct_product_was_added_to_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cart page",
+    "description": "As a user I want to add products to the shopping cart",
+    "id": "cart-page",
+    "keyword": "Feature",
+    "uri": "cart.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 51533916,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the saucedemo Homepage",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_saucedemo_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1084543695,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login with a valid user",
+        "description": "",
+        "id": "login-and-logout;login-with-a-valid-user",
+        "after": [
+          {
+            "result": {
+              "duration": 68992993,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87645097,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "type username on the username field",
+            "match": {
+              "location": "LoginSteps.type_username_on_the_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75122191,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "type password on the password field",
+            "match": {
+              "location": "LoginSteps.type_password_on_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118718872,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "should be redirected to the Products page",
+            "match": {
+              "location": "LoginSteps.should_be_redirected_to_the_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23229069,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the saucedemo Homepage",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_saucedemo_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 697609026,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with an invalid user",
+        "description": "",
+        "id": "login-and-logout;login-with-an-invalid-user",
+        "after": [
+          {
+            "result": {
+              "duration": 68642679,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87238253,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "type wrong username on the username field",
+            "match": {
+              "location": "LoginSteps.type_wrong_username_on_the_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82792336,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "type right password on the password field",
+            "match": {
+              "location": "LoginSteps.type_right_password_on_the_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71998292,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the error message should be displayed",
+            "match": {
+              "location": "LoginSteps.the_error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23931590,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the saucedemo Homepage",
+            "match": {
+              "location": "LoginSteps.user_is_on_the_saucedemo_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 787711255,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Logout from the saucedemo Homepage",
+        "description": "",
+        "id": "login-and-logout;logout-from-the-saucedemo-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 69057921,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 278235572,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is logged in on the Products page",
+            "match": {
+              "location": "LoginSteps.the_user_is_logged_in_on_the_Products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 651236050,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "selects the logout option",
+            "match": {
+              "location": "LoginSteps.selects_the_logout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20596425,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "should be redirected to the Login page",
+            "match": {
+              "location": "LoginSteps.should_be_redirected_to_the_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and logout",
+    "description": "As a user I want to login to the saucedemo page and also I want to log out my account from the application",
+    "id": "login-and-logout",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 789685473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sort products by price low to high",
+        "description": "",
+        "id": "products-page;sort-products-by-price-low-to-high",
+        "after": [
+          {
+            "result": {
+              "duration": 69304173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 305585683,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is successfully authenticated",
+            "match": {
+              "location": "ProductsSteps.user_is_successfully_authenticated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63194089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sort products by low to high price",
+            "match": {
+              "location": "ProductsSteps.user_sort_products_by_low_to_high_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25897028,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sees the products organized by price from lowest to highest",
+            "match": {
+              "location": "ProductsSteps.user_sees_the_products_organized_by_price_from_lowest_to_highest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Products page",
+    "description": "As a user I want to visualize and sort products",
+    "id": "products-page",
+    "keyword": "Feature",
+    "uri": "products.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1093598131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Complete a purchase",
+        "description": "",
+        "id": "purchase;complete-a-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 71509580,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 282626867,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is successfully authenticated",
+            "match": {
+              "location": "ProductsSteps.user_is_successfully_authenticated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95751772,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user adds items to the shopping cart",
+            "match": {
+              "location": "CartSteps.user_adds_items_to_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88981213,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sees the items added in the shopping cart",
+            "match": {
+              "location": "CartSteps.user_sees_the_items_added_in_the_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38983218,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user proceed to checkout",
+            "match": {
+              "location": "PurchaseSteps.user_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219713974,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill the personal information",
+            "match": {
+              "location": "PurchaseSteps.user_fill_the_personal_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58671040,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user review the order",
+            "match": {
+              "location": "PurchaseSteps.user_review_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53948066,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be redirected to the confirmation page",
+            "match": {
+              "location": "PurchaseSteps.user_should_be_redirected_to_the_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase",
+    "description": "",
+    "id": "purchase",
+    "keyword": "Feature",
+    "uri": "purchase.feature"
+  }
+]
